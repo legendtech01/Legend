@@ -1,0 +1,112 @@
+
+.home-container{
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#left{
+    width: 30%;
+    float: left;
+}
+
+.home-container .img{
+    display: flex;
+    justify-content: center;
+}
+
+.home-container img{
+    width: 25rem;
+    border-radius: 10px;
+}
+
+#right{
+    width: 50%;
+    float: left;
+}
+
+.home-wrapper h1{
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-weight: 400;
+    font-size: 3.5rem;
+    padding: .1rem 0;
+    justify-content: center;
+    background: linear-gradient(45deg, #01ff6b, #3333ff, 
+                #6179ff, #3240ff, #18ffd1);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-wrapper h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.home-wrapper p{
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2rem;
+}
+
+.home-wrapper .btn{
+    margin-top: 2rem;
+}
+
+.btn{
+    padding: 12px 24px;
+    border-radius: 20px;
+    color: var(--text-color);
+    background-color: #111;
+    border: none;
+    text-transform: uppercase;
+    padding-right: 36px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.btn::before{
+    content: " ";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #01ff6b, #3333ff, 
+                #6179ff, #3240ff, #18ffd1);
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(4px);
+    animation: borderRun 4s linear infinite;
+}
+.btn i{
+    width: 3rem;
+    height: 3rem;
+    padding: 7px 1rem;
+    line-height: 1.9rem;
+    border-radius: 50%;
+    margin-left: -5px;
+    margin-top: -1rem;
+    position: absolute;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+@keyframes borderRun {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}

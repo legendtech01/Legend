@@ -1,0 +1,106 @@
+
+.contact-wrapper{
+    display: flex;
+    margin-top: 3rem;
+    gap: 8rem;
+}
+
+.contact-content{
+    text-align: left;
+    width: 30%;
+}
+
+.contact-content h2{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.contact-content h2 span{
+    color: var(--main-color);
+}
+
+.contact-content .contact-intro p{
+    margin: 1.5rem 0;
+    line-height: 20px;
+}
+
+.contact-info-wrapper .contact-info{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.contact-info-wrapper .contact-info i{
+    font-size: 2rem;
+    color: var(--main-color);
+    padding-right: 1.5rem;
+}
+
+.contact-info-wrapper .contact-info{
+    text-transform: capitalize;
+    line-height: 1.7rem;
+}
+
+.Legend i{
+    font-size: 1.3rem;
+    background-color: var(--fonts-bg);
+    color: var(--text-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.7rem;
+    text-align: center;
+    margin: 0 3px;
+    border-radius: 50%;
+}
+
+.Legend i:hover{
+    transform: rotate(360deg);
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: .5s ease-in-out;
+}
+
+.contact-form{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    height: 20rem;
+    margin-bottom: 10rem;
+}
+
+form ::placeholder{
+    text-transform: capitalize;
+}
+
+form input{
+    border: none;
+    width: 25.28rem;
+    height: 3rem;
+    background-color: var(--fonts-bg);
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+#subject{
+    width: 100%;
+}
+
+form textarea{
+    width: 100%;
+    height: 18rem;
+    background-color:  var(--fonts-bg);
+    border: none;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+    resize: none;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+form button{
+    margin-left: 1.3rem;
+}

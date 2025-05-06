@@ -1,0 +1,92 @@
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 3rem;
+    z-index: 1200;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 5px 7px var(--box-shadow);
+}
+#nav-logo{
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;    
+    align-items: center;
+    gap: .5rem;
+}
+#header-img{
+    width: 40px;
+    animation-name: grow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes grow {
+    50%{transform: scale(1.1, 1.1);}
+}
+#nav-logo span{
+    color: var(--main-color);
+    font-weight: 1000;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul a{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+.navMenu ul a:hover{
+    background-color: var(--main-color);
+}
+nav ul a.active{
+    background-color: var(--main-color);
+    padding: .5rem 2rem;
+}
+.navbar-menu{
+    display: flex;
+    align-items: center;
+}
+header i{
+    font-size: 1.3rem;
+    background-color: var(--fonts-bg);
+    color: var(--text-color);
+    width: 3rem;
+    height: 3rem;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 3px;
+    border-radius: 50%;
+}
+header i:hover{
+    transform: rotate(360deg);
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: .5s ease-in-out;
+}
+#menuBar{
+    display: none;
+}
+header .navbar-menu input{
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: monospace;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    margin-left: .7rem;
+}
+header .navbar-menu input:hover{
+    transform: scale(1.05);
+}

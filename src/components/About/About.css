@@ -1,0 +1,145 @@
+.about-wrapper{
+    display: flex;
+    padding-top: 4rem;
+    gap: 10rem;
+}
+
+.about-wrapper .personal-info h2{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
+
+.about-wrapper .personal-info-wrapper{
+    display: flex;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 1.1rem;
+    gap: 5rem;
+}
+
+.about-wrapper .personal-info-wrapper p{
+    color: hsl(0, 0%, 54%);
+    padding: 1rem 0;
+}
+
+.about-wrapper .personal-info-wrapper span{
+    color: var(--text-color);
+    padding: 0 .2rem;
+    text-transform: uppercase;
+}
+
+.about-wrapper .personal-info-wrapper button{
+    margin-top: 15px;
+    position: absolute;
+}
+
+.about-wrapper .history{
+    width: 100%;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 3px solid rgba(255, 255, 255, 0.04);
+    margin: .5rem 0;
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+    padding: 1rem 1.2rem;
+    position: relative;
+    transition: all .5s;
+    overflow: hidden;
+}
+.box::before{
+    content: "";
+    height: 15rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    background: radial-gradient(  960px circle at 0 0, 
+                                rgba(96, 118, 216, 0.068),
+                                  transparent 50rem
+    );
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+.box:hover{
+    transform: scale(0.98);
+}
+.box:hover::before{
+    opacity: 1;
+}
+.about-wrapper .history{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 9rem;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.about-wrapper .history span{
+    color: var(--main-color);
+    font-size: 3rem;
+    font-family: fantasy;
+}
+
+.about-wrapper .history p{
+    text-transform: uppercase;
+    width: 10rem;
+    padding: .5rem 1.5rem;
+}
+
+aside{
+    margin-top: -2rem;
+}
+
+aside h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3.5rem;
+}
+aside .skillsContainer{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+aside .skillContent{
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+    width: max-content;
+    animation: marque 45s linear infinite;
+}
+@keyframes marque {
+    0%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+aside .skillList p{
+    font-weight: 600px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+aside img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+.meterContainer{
+    width: 10rem;
+    height: 7px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1.2rem 0;
+}
+.meterFill{
+    height: 100%;
+    background-color: var(--main-color);
+    width: 0;
+}

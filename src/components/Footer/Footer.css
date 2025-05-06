@@ -1,0 +1,23 @@
+footer{
+    background: linear-gradient(rgb(66, 69, 255), var(--main-color) );
+}
+
+.footer-container{
+    padding: 1rem 4rem;
+}
+
+footer #link-icon2{
+    border-radius: 5px;
+}
+
+.footer-wrapper1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.footer-wrapper2{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
