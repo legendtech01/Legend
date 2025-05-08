@@ -71,7 +71,7 @@
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.09);
 }
 .btn::before{
     content: " ";
@@ -100,7 +100,7 @@
 
 .btn:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 }
 @keyframes borderRun {
     0%{

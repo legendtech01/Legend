@@ -1,13 +1,11 @@
 import "./Hero.css"
 import profilePic from "../../assets/Dp.png"
 import { motion } from "framer-motion"
-import { AnimatedBackground } from "animated-backgrounds"
 
 
 function Hero() {
     return (
         <>
-         <AnimatedBackground animationName="particleNetwork" />
             <section className="home-section" id="home">
 
                 <div className="home-container">
