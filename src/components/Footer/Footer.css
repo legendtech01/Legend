@@ -1,9 +1,6 @@
-footer{
-    background: linear-gradient(rgb(66, 69, 255), var(--main-color) );
-}
 
 .footer-container{
-    padding: 1rem 4rem;
+    padding: 0 4rem;
 }
 
 footer #link-icon2{
@@ -20,4 +17,5 @@ footer #link-icon2{
     padding-top: 2rem;
     text-align: center;
     font-size: 1rem;
+    padding-bottom: 5rem;
 }
