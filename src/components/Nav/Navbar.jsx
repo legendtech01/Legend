@@ -1,5 +1,5 @@
 import { Component } from "react"
-import "./navbar.css"
+import "./Navbar.css"
 import logo from "../../assets/logo.png"
 import { menuData } from "../data"
 import { Link } from "react-scroll"
