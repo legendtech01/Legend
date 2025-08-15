@@ -76,13 +76,17 @@ form ::placeholder{
 
 form input{
     border: none;
-    width: 25.28rem;
+    width: 22rem;
     height: 3rem;
     background-color: var(--fonts-bg);
     border-radius: 20px;
     padding-left: 1.5rem;
     color: var(--text-color);
     margin-bottom: 1.5rem;
+}
+
+#rightInput{
+    margin-right: 1.4rem;
 }
 
 #subject{
