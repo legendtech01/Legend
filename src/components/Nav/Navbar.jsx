@@ -3,7 +3,7 @@ import { menuData } from "../data";
 import { Link } from "react-scroll";
 
 import logo from "../../assets/logo.png";
-import "./navbar.css";
+import "./Navbar.css";
 
 
 class Navbar extends Component {
@@ -13,7 +13,7 @@ class Navbar extends Component {
             clicked: !this.state.clicked
         })
     }
-            
+
     render(){
         return (
             <header>
