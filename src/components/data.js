@@ -34,7 +34,7 @@ export const historyData = [
         paragraf: "happy customers"
     },
     {
-        spn: "15+",
+        spn: "4+",
         paragraf: "collaboration"
     }
 ]
@@ -78,7 +78,7 @@ export const myInfoTwo = [
     },
     {
         pg: "address: ",
-        spn: "choba portharcourt, Nigeria.",
+        spn: "portharcourt, Nigeria.",
     },
     {
         pg: "language: ",

@@ -35,13 +35,13 @@ function Hero() {
                             </p>
 
                             <div className="Legend">
-                                <a href="https://wa.me/2347057800674"><i className="fa-brands fa-whatsapp"></i></a>
-                                <a href="https://x.com/Legend_1234555?s=08"><i className="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://t.me/LegendDotSui"><i class="fa-solid fa-paper-plane"></i></a>
+                                <a href="https://x.com/LegendDotSui?t=T0UAt7Q023JGXd5wXHS1Mw&s=16"><i className="fa-brands fa-x-twitter"></i></a>
                                 <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                                <a href="#"><i className="fa-brands fa-github"></i></a>
+                                <a href="https://github.com/legendtech01"><i className="fa-brands fa-github"></i></a>
                             </div>
 
-                            <button className="btn">view resume<i className="fas fa-download"></i></button>
+                            <button className="btn">Available For New Project</button>
                         </div>
                     </motion.div>
                 </div>

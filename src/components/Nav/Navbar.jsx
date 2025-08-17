@@ -1,8 +1,8 @@
-import { Component } from "react"
-import "./navbar.css"
-import logo from "../../assets/logo.png"
-import { menuData } from "../data"
-import { Link } from "react-scroll"
+import { Component } from "react";
+import "./navbar.css";
+import logo from "../../assets/logo.png";
+import { menuData } from "../data";
+import { Link } from "react-scroll";
 
 
 class Navbar extends Component {

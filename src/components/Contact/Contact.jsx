@@ -72,9 +72,10 @@ function Contact(){
                     className="contact-content">
                         <div className="contact-intro">
                             <h2>get in <span>touch</span></h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                               Adipisci ipsum natus quibusdam similique  
-                               soluta quaerat, obcaecati ratione labore.
+                            <p>I'm always interested in exploring new opportunities, collaborating, 
+                                or exchanging ideas with like-minded individuals. Feel free to book
+                                a call or email me if you'd like to see my 
+                                portfolio deck or to discuss a potential project.
                             </p>
                         </div>
 
@@ -83,7 +84,7 @@ function Contact(){
                                 <i className="fas fa-home"></i>
                                 <div className="Legend">
                                     <h3>address point</h3>
-                                    <p>148 uniport road choba portharcourt, rivers state Nigeria</p>
+                                    <p>60 uniport road choba portharcourt, rivers state Nigeria</p>
                                 </div>
                             </div>
         
@@ -105,8 +106,8 @@ function Contact(){
                             </div>
 
                             <div className="Legend">
-                                <a href="https://wa.me/2347057800674"><i className="fa-brands fa-whatsapp"></i></a>
-                                <a href="https://x.com/Legend_1234555?s=08"><i className="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://t.me/LegendDotSui"><i class="fa-solid fa-paper-plane"></i></a>
+                                <a href="https://x.com/LegendDotSui?t=T0UAt7Q023JGXd5wXHS1Mw&s=16"><i className="fa-brands fa-x-twitter"></i></a>
                                 <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
                                 <a href="#"><i className="fa-brands fa-github"></i></a>
                             </div>
@@ -120,7 +121,7 @@ function Contact(){
                       transition={{duration: 2}}
                     className="contact-form">
                         <form ref={formRef}  onSubmit={handleSubmit}>
-                            <input type="text" onChange={handleChange} value={form.name} name="name" placeholder="your name" required />
+                            <input type="text" onChange={handleChange} value={form.name} name="name" id="rightInput" placeholder="your name" required />
                             <input type="email" onChange={handleChange} value={form.email} name="email" placeholder="your email" required />
                             <input type="text" onChange={handleChange} value={form.subject} id="subject" placeholder="your subject" name="subject" required />
                             <textarea name="message" onChange={handleChange} value={form.message} placeholder="your message" required></textarea>
