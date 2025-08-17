@@ -1,8 +1,9 @@
 import { Component } from "react";
-import "./navbar.css";
-import logo from "../../assets/logo.png";
 import { menuData } from "../data";
 import { Link } from "react-scroll";
+
+import logo from "../../assets/logo.png";
+import "./navbar.css";
 
 
 class Navbar extends Component {
@@ -12,7 +13,7 @@ class Navbar extends Component {
             clicked: !this.state.clicked
         })
     }
-    
+            
     render(){
         return (
             <header>
