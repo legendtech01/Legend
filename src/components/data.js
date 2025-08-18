@@ -5,13 +5,13 @@ export const menuData = [
         cName: "navLinks"
     },
     {
-        title: "about",
-        url: "about",
+        title: "portfolio",
+        url: "portfolio",
         cName: "navLinks"
     },
     {
-        title: "portfolio",
-        url: "portfolio",
+        title: "about",
+        url: "about",
         cName: "navLinks"
     },
     {
