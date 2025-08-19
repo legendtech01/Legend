@@ -33,7 +33,7 @@ function Portfolio (){
 
                 </motion.div>
             </div>
-           <button className="btn" id="portfolio-btn"><a href="https://github.com/dev0xgeniusgit">More Project</a></button>
+           <button className="btn" id="portfolio-btn"><a href="https://github.com/dev0xgenius">More Project</a></button>
         </section>
             
     )
