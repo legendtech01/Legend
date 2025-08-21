@@ -1,9 +1,6 @@
-import portfolioImage from "../../assets/portfolioImage.jpg"
-import portfolioImage1 from "../../assets/portfolioImage1.jpg"
-import bannerly from "../../assets/bannerly.jpg"
-import flexvest from "../../assets/flexvest.jpg"
-import afrovivo from "../../assets/afrovivo.jpg"
-import readcode from "../../assets/readcode.jpg"
+import bannerly from "../../assets/bannerly.webp"
+import flexvest from "../../assets/flexvest.webp"
+import afrovivo from "../../assets/afrovivo.webp"
 
 const recentWorks = [
     {

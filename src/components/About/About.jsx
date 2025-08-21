@@ -68,7 +68,7 @@ function About() {
                                 {skillListData.map((items, index) =>{
                                     return(
                                         <div className="skillList" key={index}>
-                                            <img src={items.images} alt="my skills" />
+                                            <img src={items.images} loading="lazy" alt="my skills" />
                                             <MySkills value={items.value}/>
                                             <p>{items.pg}</p>
                                         </div>

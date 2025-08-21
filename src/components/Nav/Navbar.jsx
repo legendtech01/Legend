@@ -2,7 +2,7 @@ import { Component } from "react";
 import { menuData } from "../data";
 import { Link } from "react-scroll";
 
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 import "./Navbar.css";
 
 
@@ -17,7 +17,7 @@ class Navbar extends Component {
     render(){
         return (
             <header>
-                <h1 id="nav-logo">legendary <span>dev</span> <img src={logo} alt="logo" id="header-img" /></h1>
+                <h1 id="nav-logo">legendary <span>dev</span> <img src={logo} loading="lazy" alt="logo" id="header-img" /></h1>
     
                 <nav className={this.state.clicked ? "navMenu active" : "navMenu"} id="navMenu">
                     <ul>

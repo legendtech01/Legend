@@ -1,5 +1,5 @@
 import "./Hero.css"
-import profilePic from "../../assets/Dp.png"
+import profilePic from "../../assets/Dp.webp"
 import { motion } from "framer-motion"
 
 
@@ -14,7 +14,7 @@ function Hero() {
                     whileInView={{opacity: 1, translateX: 0}}
                     transition={{duration: 2}}
                     className="img" id="left">
-                        <img src={profilePic} alt="photo" />
+                        <img src={profilePic} alt="photo" loading="lazy"/>
                     </motion.div>
 
                     <motion.div 

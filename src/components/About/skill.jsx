@@ -6,12 +6,12 @@ import CyberSecurityAwareness from "../../assets/securityAwareness.jpg"
 import teamWork from "../../assets/teamWork.jpg"
 import timeManagement from "../../assets/timeManagement.jpg"
 import Github from "../../assets/github.jpg"
-import Git from "../../assets/git.jpg"
+import Git from "../../assets/git.webp"
 import Tailwind from "../../assets/tailwind.jpg"
 import ReactSkill from "../../assets/react.jpg"
-import Js from "../../assets/js.jpg"
-import Css from "../../assets/css.jpg"
-import Html from "../../assets/html.jpg"
+import Js from "../../assets/js.webp"
+import Css from "../../assets/css.webp"
+import Html from "../../assets/html.webp"
 
 
 export const MySkills = ({ value }) => {
